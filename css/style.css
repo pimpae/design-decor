@@ -55,6 +55,7 @@ a:hover{
 body{
   font-family: SukhumvitSet-Text;
   font-style: normal; 
+  overflow-x: hidden !important;
 }      
 header{
   height: 100vh;
