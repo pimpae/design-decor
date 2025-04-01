@@ -1,5 +1,5 @@
 :root {
-  --main1: #00368A;  
+  --main1: #545454;  
   --main2: #0070BA;  
   --main3: #2B88D9;  
   --main4: #940000;  
@@ -9,10 +9,43 @@
   --text-black2: #121212;
   --main-gradient: linear-gradient(180deg, #41E0DE 0%, #0B167F 100%);
 } 
-@font-face {
-  font-family: 'helvethaica';
-  src: url('../fonts/DB-Helvethaica-X3.ttf'); 
-} 
+@font-face{
+  font-family: SukhumvitSet-Bold;
+  src: url(../fonts/SukhumvitSet-Bold.ttf);
+  font-style: normal;
+  font-variant:initial;
+}   
+@font-face{
+  font-family: SukhumvitSet-Light;
+  src: url(../fonts/SukhumvitSet-Light.ttf);
+  font-style: normal;
+  font-variant:initial;
+}   
+@font-face{
+  font-family: SukhumvitSet-Medium;
+  src: url(../fonts/SukhumvitSet-Medium.ttf);
+  font-style: normal;
+  font-variant:initial;
+}   
+@font-face{
+  font-family: SukhumvitSet-SemiBold;
+  src: url(../fonts/SukhumvitSet-SemiBold.ttf);
+  font-style: normal;
+  font-variant:initial;
+}   
+@font-face{
+  font-family: SukhumvitSet-Text;
+  src: url(../fonts/SukhumvitSet-Text.ttf);
+  font-style: normal;
+  font-variant:initial;
+}   
+@font-face{
+  font-family: SukhumvitSet-Thin;
+  src: url(../fonts/SukhumvitSet-Thin.ttf);
+  font-style: normal;
+  font-variant:initial;
+}   
+   
 a{
   text-decoration: none !important; 
 }
@@ -20,10 +53,139 @@ a:hover{
   text-decoration: none;
 } 
 body{
-  font-family: "helvethaica", serif;
-  font-style: normal;
-  overflow-x: hidden;
+  font-family: SukhumvitSet-Text;
+  font-style: normal; 
 }      
+header{
+  height: 100vh;
+}
+header #headerSlide .carousel-item{
+  height: 100vh;
+  width: 100%;  
+  background-position: center bottom !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto !important;
+} 
+.carousel-control-prev{
+  opacity: 1;
+} 
+.carousel-control-prev i{
+  font-size: 36px;
+  color: rgba(0, 0, 0, .7);
+  padding: 13px 20px;
+  background-color: rgba(255, 255, 255, .4);
+  border-radius: 100%;
+}
+.carousel-control-next{
+  opacity: 1;
+} 
+.carousel-control-next i{
+  font-size: 36px;
+  color: rgba(0, 0, 0, .7);
+  padding: 13px 20px;
+  background-color: rgba(255, 255, 255, .4);
+  border-radius: 100%;
+}
+.sec1 .col-lg-5{ 
+  background-color: #cbcfcf; 
+}
+.sec1 .col-lg-7{ 
+  background-color: #fff; 
+}
+.sec1 .col-lg-7{
+  padding: 50px;
+}
+.sec1 h1{
+  font-size: 42px;
+  color: var(--main1); 
+  font-family: SukhumvitSet-bold;
+}
+.sec1 h1 span{
+  font-size: 50px;
+  font-weight: bold;
+}
+.sec1 p{
+  font-family: SukhumvitSet-Medium;
+  font-size: 24px;
+  color: #000;
+}
+.sec1 p span{
+  font-family: SukhumvitSet-Bold; 
+}
+.sec1 ul li{ 
+  font-family: SukhumvitSet-Medium;
+  font-size: 24px;
+  color: #000;
+}
+.sec2{
+  padding: 80px 0px 100px;
+  background-image: url(../images/bg-sec2.png);
+  background-position: center bottom !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto !important;
+}
+.sec2 h2{
+  color: #fff; 
+  font-size: 42px;
+  font-family: SukhumvitSet-Bold; 
+  margin-bottom: 100px;
+}
+.sec2 .m-da{
+  position: relative;
+}
+.sec2 .m-da::after{
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 20px;
+  height: 250px;
+  width: 4px;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, .4);
+}
+.sec2 .m-da img{
+  height: 90px;
+}
+.sec2 h3{
+  color: #f4c43a;
+  font-size: 30px;
+  font-family: SukhumvitSet-Bold; 
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.sec2 p{
+  color: #fff;
+  font-size: 24px;
+  font-family: SukhumvitSet-Medium;  
+}
+.sec2 p span{ 
+  font-family: SukhumvitSet-Bold;  
+  font-style: italic !important;
+}
+.sec3{
+  padding: 50px 0px 20px;
+  text-align: center;
+}
+.sec3 h2{
+  font-size: 42px;
+  color: var(--main1);
+  font-family: SukhumvitSet-Bold;  
+}
+.sec3 p{
+  font-size: 24px;
+  color: #000;
+  font-family: SukhumvitSet-Medium;  
+} 
+.sec4{
+  padding: 50px; 
+  background-color: #b0937b;
+}
+ 
+ 
+
+ 
+ 
+
 
 
 /* 
