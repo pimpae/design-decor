@@ -20,6 +20,7 @@
   
 	<link href="css/style.css" rel="stylesheet">   
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<link rel="stylesheet" href="css/lightslider.css" />
 	
 
 </head>
@@ -134,8 +135,56 @@
 		</section>
 		<section class="sec4">
 			<div class="container-fluid">
-				<div class="row">
-					xxx
+				<div class="row justify-content-center">
+					<div class="col-xl-10">  
+						<ul id="item3" class="item3">
+							<li>
+								<a href="#">
+									<div class="condo-card">
+										<div class="cover" style="background: url(images/111.jpg);"></div>
+										<h4>D Mark Condo สุทธิสาร</h4>
+										<h5>cx-0001</h5>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="condo-card">
+										<div class="cover" style="background: url(images/222.JPG);"></div>
+										<h4>IDEO Mobi Sukhumvit Eastgate</h4>
+										<h5>cx-0001</h5>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="condo-card">
+										<div class="cover" style="background: url(images/333.jpg);"></div>
+										<h4>IDEO Q สยาม-ราชเทวี</h4>
+										<h5>cx-0001</h5>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="condo-card">
+										<div class="cover" style="background: url(images/444.jpg);"></div>
+										<h4>IDEO วุฒากาศ</h4>
+										<h5>cx-0001</h5>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="condo-card">
+										<div class="cover" style="background: url(images/555.jpg);"></div>
+										<h4>IDEO สาทร-ท่าพระ</h4>
+										<h5>cx-0001</h5>
+									</div>
+								</a>
+							</li>
+						</ul> 
+					</div>
 				</div>
 			</div>
 		</section>
@@ -147,7 +196,56 @@
 	<script src="js/jquery.min.js"></script> 
 	<script src="js/popper.min.js" ></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/lightslider.js"></script>
 	
- 
+	<script>
+		
+		$('#item3').lightSlider({
+			item:3,
+			loop:false,
+			slideMove:1,
+			easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
+			speed:600,
+			responsive : [  
+				{
+					breakpoint:2100,
+					settings: {
+						item:3 
+					}
+				},
+				{
+					breakpoint:1700,
+					settings: {
+						item:3 
+					}
+				},   
+				{
+					breakpoint:1500,
+					settings: {
+						item:2
+					}
+				},
+				{
+					breakpoint:1450,
+					settings: {
+						item:2
+					}
+				},
+				{
+					breakpoint:800,
+					settings: {
+						item:2 
+					}
+				}, 
+				{
+					breakpoint:480,
+					settings: {
+						item:1,
+						slideMove:1
+					}
+				} 
+			]
+		});  
+	</script>
 </body>
 </html>
