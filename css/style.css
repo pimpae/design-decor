@@ -63,7 +63,7 @@ header{
 header #headerSlide .carousel-item{
   height: 100vh;
   width: 100%;  
-  background-position: center bottom !important;
+  background-position:  left   bottom !important;
   background-repeat: no-repeat !important;
   background-size: 100% auto !important;
 } 
@@ -89,13 +89,18 @@ header #headerSlide .carousel-item{
 }
 .sec1 .col-lg-5{ 
   background-color: #cbcfcf;  
+  padding-top: 110px;
+  padding-bottom: 110px;
 } 
+.sec1 .w-100{
+  width: 90% !important;
+}
 .sec1 .col-lg-7{ 
   background-color: #fff; 
 }
 .sec1 .col-lg-7{
-  padding: 50px;
-  margin-left: 30px;
+  padding: 50px; 
+  padding-left: 90px !important;
 }
 .sec1 h1{
   font-size: 42px;
@@ -184,20 +189,22 @@ header #headerSlide .carousel-item{
   background-color: #b0937b;
 } 
 .condo-card{
-  width: 380px;    
-  height: 380px;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  width: 350px;    
+  height: 350px; 
   position: relative;
   border-radius: 15px;
+  padding: 20px;
 }
 .condo-card .cover{ 
   background-position: center   !important;
   background-repeat: no-repeat !important;
-  background-size: auto 380px !important;
-  height: 380px;
+  background-size: auto 350px !important;
+  height: 100%;
   border-radius: 15px; 
   width: 100%;    
   transition: all .4s ease 0s;
+  padding: 20px;
+  position: relative;
 } 
 .condo-card:hover .cover{  
   background-size: auto 420px !important; 
@@ -211,25 +218,27 @@ header #headerSlide .carousel-item{
   border-radius: 15px !important;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 70%, #000000 100%);
   filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1));
+  overflow: hidden; 
 }
 .condo-card h4{ 
   position: absolute;
   color: #fff;
-  left: 20px;
+  left: 40px;
   bottom: 15px;
   white-space: nowrap;   
   overflow: hidden;
   text-overflow: ellipsis; 
   width: 100%;
-  padding-right: 50px;
+  padding-right: 75px;
+  font-family: SukhumvitSet-Bold;  
 }
 .condo-card h5{ 
   position: absolute;
   color: #fff;
-  left: 0px;
-  top: 35px;
+  left: 20px;
+  top: 45px;
   background-color: #928275;
-  padding: 15px 35px 15px 10px;
+  padding: 12px 25px 12px 10px;
   border-top-right-radius: 30px; 
   border-bottom-right-radius: 30px;
   text-transform: uppercase;
@@ -705,19 +714,19 @@ transition: .33s all ease-out;
   .sec2 .m-da::after {
     content: unset !important; 
   }
-  
+  .sec1 .col-lg-7{ 
+    padding-left: 20px !important;
+  }
 }
 @media only screen and (min-width: 1025px) { /* PC */
   .pc-x{
     display: none !important;
-  }     
-  .sec1 .col-lg-5{ 
-    background-color: #cbcfcf; 
-    padding-left: 30px;
-    margin-left: -30px;
+  }      
+  .ml-x140{
+    margin-left: -140px;
   }
-  .sec1 .col-lg-5 img{  
-    padding-left: 30px; 
+  .pl-100{
+    padding-left: 50px;
   }
 }     
  
