@@ -238,7 +238,7 @@ header #headerSlide .carousel-item{
   min-height: 100vh;
   padding: 50px;
   background-image: url(../images/dd-5.png)  ; 
-  background-position: bottom -100px left -50px   !important;
+  background-position: bottom -90px left -50px   !important;
   background-repeat: no-repeat  !important;
   background-size: 45% auto !important;
   position: relative;
