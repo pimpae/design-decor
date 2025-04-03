@@ -65,7 +65,7 @@ header #headerSlide .carousel-item{
   width: 100%;  
   background-position:  left   bottom !important;
   background-repeat: no-repeat !important;
-  background-size: 100% auto !important;
+  background-size: 104% auto !important;
 } 
 .carousel-control-prev{
   opacity: 1;
@@ -125,7 +125,7 @@ header #headerSlide .carousel-item{
   color: #000;
 }
 .sec2{
-  padding: 80px 0px 100px;
+  padding: 60px 0px 70px;
   background-image: url(../images/bg-sec2.png);
   background-position: center bottom !important;
   background-repeat: no-repeat !important;
@@ -723,7 +723,7 @@ transition: .33s all ease-out;
     display: none !important;
   }      
   .ml-x140{
-    margin-left: -140px;
+    margin-left: -60px;
   }
   .pl-100{
     padding-left: 50px;
