@@ -444,6 +444,7 @@ header #headerSlide .carousel-item{
   position: relative;
   border-radius: 15px;
   overflow: hidden;
+  padding: 0px !important;
 }
 .sec6 .condo-card .cover{ 
   background-position: center   !important;
@@ -454,6 +455,7 @@ header #headerSlide .carousel-item{
   width: 100%;    
   transition: all .4s ease 0s;
   overflow: hidden;
+  padding: 0px !important;
 } 
 .sec6 .condo-card:hover .cover{  
   background-size: auto 500px !important; 
