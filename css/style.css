@@ -89,12 +89,18 @@ header #headerSlide .carousel-item{
 }
 .sec1 .col-lg-5{ 
   background-color: #cbcfcf; 
+  padding-left: 30px;
+  margin-left: -30px;
+}
+.sec1 .col-lg-5 img{  
+  padding-left: 30px; 
 }
 .sec1 .col-lg-7{ 
   background-color: #fff; 
 }
 .sec1 .col-lg-7{
   padding: 50px;
+  margin-left: 30px;
 }
 .sec1 h1{
   font-size: 42px;
