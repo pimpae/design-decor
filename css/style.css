@@ -88,13 +88,8 @@ header #headerSlide .carousel-item{
   border-radius: 100%;
 }
 .sec1 .col-lg-5{ 
-  background-color: #cbcfcf; 
-  padding-left: 30px;
-  margin-left: -30px;
-}
-.sec1 .col-lg-5 img{  
-  padding-left: 30px; 
-}
+  background-color: #cbcfcf;  
+} 
 .sec1 .col-lg-7{ 
   background-color: #fff; 
 }
@@ -716,5 +711,13 @@ transition: .33s all ease-out;
   .pc-x{
     display: none !important;
   }     
+  .sec1 .col-lg-5{ 
+    background-color: #cbcfcf; 
+    padding-left: 30px;
+    margin-left: -30px;
+  }
+  .sec1 .col-lg-5 img{  
+    padding-left: 30px; 
+  }
 }     
  
