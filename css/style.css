@@ -772,4 +772,14 @@ transition: .33s all ease-out;
   }
 }     
  
+@media only screen and (min-width: 1025px) and (max-width: 1355px)  { /* PC */  
+  header{
+    height: 420px;
+  }
+  header #headerSlide .carousel-item{
+    height: 420px; 
+    background-position: center !important;
+    background-size:  100% auto  !important;
+  } 
+}     
  
